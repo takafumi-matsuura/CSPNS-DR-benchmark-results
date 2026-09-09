@@ -1,0 +1,22 @@
+{
+  "title": "CSPNS-DR Benchmark Instances and Computational Results",
+  "upload_type": "dataset",
+  "description": "Benchmark instances and raw computational results used to evaluate a destroy-and-repair heuristic for the Covering Salesman Problem with Nodes and Segments (CSPNS). The repository includes Gurobi, destroy-and-repair, tabu-search, and multi-start local-search results.",
+  "creators": [
+    {
+      "name": "Matsuura, Takafumi",
+      "affiliation": "Nippon Institute of Technology"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-zero",
+  "keywords": [
+    "covering salesman problem",
+    "CSPNS",
+    "destroy-and-repair heuristic",
+    "tabu search",
+    "combinatorial optimization",
+    "benchmark instances",
+    "computational results"
+  ]
+}
