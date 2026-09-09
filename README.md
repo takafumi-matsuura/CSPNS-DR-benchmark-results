@@ -6,19 +6,23 @@ Salesman Problem with Neighborhoods (CSPNS).
 
 ## Contents
 
-- `instances/`: Euclidean benchmark instances for `n = 100, 150, 200, 300`.
-  Each instance file contains one point per line in the form
-  `point_id x_coordinate y_coordinate`.
-- `reference_values/`: objective values obtained by Gurobi for the `n = 100`
-  and `n = 150` instances. These are the reference values used to calculate
-  the reported gaps. A value can be the best solution found within the
-  12-hour limit when optimality was not proved.
-- `results/gurobi/`: Gurobi log files for `n = 100, 150` and
-  `r = 0, 50, 100`.
-- `results/heuristics/dr/`: raw results of the Destroy-and-Repair method.
-- `results/heuristics/ts/`: raw results of tabu search.
-- `results/heuristics/msls/`: raw results of multi-start local search.
+- [`instances/`](https://github.com/takafumi-matsuura/CSPNS-DR-benchmark-results/tree/main/instances):
+  Euclidean benchmark instances for `n = 100, 150, 200, 300`.
 
+- [`reference_values/`](https://github.com/takafumi-matsuura/CSPNS-DR-benchmark-results/tree/main/reference_values):
+  Objective values obtained by Gurobi for the `n = 100` and `n = 150` instances.
+
+- [`results/gurobi/`](https://github.com/takafumi-matsuura/CSPNS-DR-benchmark-results/tree/main/results/gurobi):
+  Gurobi log files for `n = 100, 150` and `r = 0, 50, 100`.
+
+- [`results/heuristics/dr/`](https://github.com/takafumi-matsuura/CSPNS-DR-benchmark-results/tree/main/results/heuristics/dr):
+  Raw results of the Destroy-and-Repair method.
+
+- [`results/heuristics/ts/`](https://github.com/takafumi-matsuura/CSPNS-DR-benchmark-results/tree/main/results/heuristics/ts):
+  Raw results of tabu search.
+
+- [`results/heuristics/msls/`](https://github.com/takafumi-matsuura/CSPNS-DR-benchmark-results/tree/main/results/heuristics/msls):
+  Raw results of multi-start local search.
 The heuristic result directories are organized by problem size and instance
 number. Parameter settings and time limits are encoded in each file name.
 For example, `dest`, `rep`, and `alpha` identify the DR operators and removal
